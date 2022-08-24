@@ -1,0 +1,10 @@
+//Convert a string to an array
+//Write a function to split a string and convert it into an array of words.
+
+function stringToArray(string){
+
+	// code code code
+  let arr = []
+  string.split(' ').map(x => arr.push(x) )
+  return arr
+}
