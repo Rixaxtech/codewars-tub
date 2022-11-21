@@ -11,11 +11,12 @@ function isPalindrome(word){
     //word -> reverse that word - split reverse join
     let reversedWord = word.split('').reverse().join('')
     //revWord === word
-    if (word === reversedWord){
-        return true
-    }else{
-        return false
-    }
+    // if (word === reversedWord){
+    //     return true
+    // }else{
+    //     return false
+    // }
+    return word === reversedWord
 }
 
 console.log(isPalindrome('racecar'), 'true')
